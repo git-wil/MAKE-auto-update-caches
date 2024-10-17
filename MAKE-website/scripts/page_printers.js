@@ -6,6 +6,7 @@ async function printersLooper() {
     setTimeout(printersLooper, 10000);
 }
 
+
 async function fetchPrinters() {
     const response = await fetch(`${API}/machines/get_printers`);
 
